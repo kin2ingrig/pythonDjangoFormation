@@ -1,0 +1,10 @@
+git init pour initialiser un repertoire
+git add . pour ajouter un fichier
+git status pour voir les fichier ajouter
+git commit -m "message" pour faire un commit
+git remote add origin le lien https://github.com/kin2ingrig/pythonDjangoFormation
+git branch par defaut master
+git branch nom creer une nouvelle branche
+git checkout nom pour ramener letoile sur le nouveau nom
+git push origin nouveau nom  pour etablire une connection
+git 
