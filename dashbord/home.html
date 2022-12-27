@@ -5,32 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
-        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <title>Dashbord</title>
 </head>
 
 <body>
+    <input type="checkbox" id="menu">
     <!-- side bar -->
     <div class="side-bar">
         <div class="side-brand">
             <h1><span><i class="bi bi-person-circle"></i>User</span></h1>
             <div class="side-menu">
                 <ul>
-                    <li><a class="active" href="#"><span><i class="bi bi-house"></i></span><span>Accueil</span></a></li>
-                    <li><a href="#"><span><i class="bi bi-list-task"></i></span><span>Taches</span></a></li>
-                    <li><a href="#"><span><i class="bi bi-large"></i></span><span>Blog</span></a></li>
-                    <li><a href="#"><span><i class="bi bi-bar-chart"></i></span><span>Statistiques</span></a></li>
-                    <li><a href="#"><span><i class="bi bi-book"></i></span><span>A-Propos</span></a></li>
-                    <li><a href="#"><span><i class="bi bi-clipboard2"></i></span><span>Projets</span></a></li>
-                    <li><a href="#"><span><i class="bi bi-currency-dollar"></i></span><span>Bilan</span></a></li>
-                    <li><a href="#"><span><i class="bi bi-journal"></i></span><span>Enregistrement</span></a></li>
-                    <li><a href="#"><span><i class="bi bi-person-lines-fill"></i></span><span>Contacts</span></a></li>
+                    <li><a class="active" href="#"><i class="bi bi-house"></i>Accueil</a></li>
+                    <li><a href="#"><span><i class="bi bi-list-task"></i></span>Taches</a></li>
+                    <li><a href="#"><span><i class="bi bi-card-list"></i></span>Blog</a></li>
+                    <li><a href="#"><span><i class="bi bi-bar-chart"></i></span>Statistiques</a></li>
+                    <li><a href="#"><span><i class="bi bi-book"></i></span>A-Propos</a></li>
+                    <li><a href="#"><span><i class="bi bi-clipboard2"></i></span>Projets</a></li>
+                    <li><a href="#"><span><i class="bi bi-currency-dollar"></i></span>Bilan</a></li>
+                    <li><a href="#"><span><i class="bi bi-journal"></i></span>Enregistrement</a></li>
+                    <li><a href="#"><span><i class="bi bi-person-lines-fill"></i></span>Contacts</a></li>
                 </ul>
             </div>
         </div>
@@ -113,22 +109,22 @@
                                     <tr>
                                         <td>nom</td>
                                         <td>prix</td>
-                                        <td><span class="status-produit color-one"></span>mode</td>
+                                        <td><i class="status-produit color-one"></i>mode</td>
                                     </tr>
                                     <tr>
                                         <td>nom</td>
                                         <td>prix</td>
-                                        <td><span class="status-produit color-one"></span>mode</td>
+                                        <td><i class="status-produit color-two"></i>mode</td>
                                     </tr>
                                     <tr>
                                         <td>nom</td>
                                         <td>prix</td>
-                                        <td><span class="status-produit color-one"></span>mode</td>
+                                        <td><span class="status-produit color-tree"></span>mode</td>
                                     </tr>
                                     <tr>
                                         <td>nom</td>
                                         <td>prix</td>
-                                        <td><span class="status-produit color-one"></span>mode</td>
+                                        <td><span class="status-produit color-four"></span>mode</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -200,10 +196,10 @@
                             <h4>Legende</h4>
                             <table>
                                 <tr>
-                                    <td><i class="evolution color-on"></i></td>
+                                    <td><i class="evolution color-one"></i>Riz</td>
                                 </tr>
                                 <tr>
-                                    <td><i class="evolution color-on"></i></td>
+                                    <td><i class="evolution color-two"></i>Mil</td>
                                 </tr>
                             </table>
                             <div class="text-info">
@@ -233,7 +229,7 @@
                             <li>Sam</li>
                             <li>Dim</li>
                         </ul>
-                        <ul>
+                        <ul class="jour">
                             <li>1</li>
                             <li>2</li>
                             <li>3</li>
@@ -261,7 +257,7 @@
                             <li>27</li>
                             <li>28</li>
                             <li>29</li>
-                            <li><span class="active"></span>30</li>
+                            <li class="activ">30</li>
                         </ul>
                     </div>
                 </div>    
